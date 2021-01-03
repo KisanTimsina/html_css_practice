@@ -1,0 +1,161 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamu Store</title>
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <h2> TAMU STORE</h2>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+        <img src="{% static 'images/cart.png' %}" width="30px" height="30px">
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+          <h1> Hey There, You will Find<br> Awosome Clothes Here!</h1>
+          <p> have you ever been to shopping mall. How it's feel there.<br> We make sure that you will feel the same with us.</p>
+          <a href="" class="btn">Shop Now &#x2192;</a>
+        </div>
+        <div class="col-2">
+          <img src="{% static 'images/testimonial.jpg' %}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----- feaured categories ----->
+<div class="small-cotainer">
+  <div class="categories">
+    <div class="row">
+      <div class="col-3">
+        <img src="{% static 'images/profile1.jpg' %}">
+      </div>
+      <div class="col-3">
+        <img src="{% static 'images/profile2.jpg' %}">
+      </div>
+      <div class="col-3">
+        <img src="{% static 'images/profile3.jpg' %}">
+      </div>
+    </div>
+  </div>
+</div>
+  <!----- feaured categories ----->
+<div class="small-cotainer">
+  <b><h2 class="title">Latest Products</h2></b>
+  <div class="row">
+
+    <div class="col-4">
+      <img src="{% static 'images/bag1.png' %}">
+      <h4>Hand Bag</h4>
+      <p>3000 Ks</p>
+    </div>
+    <div class="col-4">
+      <img src="{% static 'images/c1.png' %}">
+      <h4>Hand Bag</h4>
+      <p>3000 Ks</p>
+    </div>
+    <div class="col-4">
+      <img src="{% static 'images/bag2.png' %}">
+      <h4>Hand Bag</h4>
+      <p>3000 Ks</p>
+    </div>
+    <div class="col-4">
+      <img src="{% static 'images/bag4.png' %}">
+      <h4>Hand Bag</h4>
+      <p>3000 Ks</p>
+    </div>
+  
+  </div>
+  <b><h2 class="title">Most Popular Products</h2></b>
+  <div class="row">
+
+    <div class="col-4">
+      <img src="{% static 'images/c6.png' %}">
+      <h4>Hand Bag</h4>
+      <p>3000 Ks</p>
+    </div>
+    <div class="col-4">
+      <img src="{% static 'images/c7.png' %}">
+      <h4>Hand Bag</h4>
+      <p>3000 Ks</p>
+    </div>
+    <div class="col-4">
+      <img src="{% static 'images/c8.png' %}">
+      <h4>Hand Bag</h4>
+      <p>3000 Ks</p>
+    </div>
+    <div class="col-4">
+      <img src="{% static 'images/c9.png' %}">
+      <h4>Hand Bag</h4>
+      <p>3000 Ks</p>
+    </div>
+  </div>
+
+</div>
+  <!----- offer----->
+<div class="offer">
+  <div class="small-cotainer">
+    <div class="row">
+      <div class="col-2">
+        <img src="{% static 'images/bag1.png' %}" class="offer-img">
+      </div>
+      <div class="col-2">
+        <p>Exclusive offer for you take it now! </p>
+        <h2> Hand Bag </h2>
+        <small>Here is your friend tamu store</small><br>
+        <small>we bring you a very afordable bag with two sides.</small><br>
+        <a href="" class="btn"> Buy Now &#x2192; </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- -------testimonial-------------->
+<div class="testimonial">
+  <div class="small-cotainer">
+    <div class="row">
+
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Hey guyz. This website is awosome and i found amazing products here. it's very cool. i like it.</p>
+        <img src="{% static 'images/profile1.jpg' %}" alt="">
+        <h2>Ooman Adk</h2>
+      </div>
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Hey guyz. This website is awosome and i found amazing products here. it's very cool. i like it.</p>
+        <img src="{% static 'images/profile2.jpg' %}" alt="">
+        <h2>Ooman Adk</h2>
+      </div>
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Hey guyz. This website is awosome and i found amazing products here. it's very cool. i like it.</p>
+        <img src="{% static 'images/profile3.jpg' %}" alt="">
+        <h2>Ooman Adk</h2>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
