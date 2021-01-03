@@ -53,6 +53,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'MY_STORE.urls'
 
 import os
+import django_heroku
 
 TEMPLATES = [
     {
@@ -129,3 +130,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, "Staitc_root")
 
 MEDIA_URL = '/media_root/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'Media_root')
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
